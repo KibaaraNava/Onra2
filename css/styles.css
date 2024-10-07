@@ -1,0 +1,288 @@
+/*Navbar Fonts*/
+.averia-sans-libre-light {
+  font-family: "Averia Sans Libre", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+/*Body*/
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+/*New NavBar*/
+
+/*Header*/
+header {
+  background-color: #3A445D;
+}
+header .carousel {
+  position: relative;
+  width: 100%;
+  height: 80vh;
+}
+header .carousel-inner img {
+  object-fit: contain;
+  height: 35%;
+}
+/*Logo*/
+.Logo {
+  cursor: pointer;
+  margin-right: auto;
+  height: 100px;
+}
+.navbar-toggler {
+  margin: 0 auto;
+}
+.navbar {
+  list-style: none;
+}
+.navbar-drop li {
+  display: flexbox;
+  padding: 0px 20px;
+}
+.navbar-drop li a {
+  transition: all 0.3s ease 0s;
+}
+.navbar-drop li a:hover {
+  color: #FCDEBE;
+}
+.dropdown-menu {
+  background: #635380;
+}
+.dropdown-list {
+  background: none;
+}
+.dropdown-item {
+  color: #3A445D;
+  border: none;
+  border-radius: 12px;
+}
+.dropdown-item:hover {
+  color: #5E5768;
+  background-color: rgba(252, 222, 190, 0.8);
+}
+.navbar-toggler {
+  border: none;
+  background-color: #A0D2DB;
+}
+button {
+  padding: 10px;
+  margin-right: 20px;
+  background-color: rgba(58, 68, 93, 1);
+  border: none;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+button:hover {
+  color: #5E5768;
+  background-color: rgba(252, 222, 190, 0.8);
+}
+.navbar-content {
+  border: none;
+  border-radius: 8px;
+  transition: all 0.3s ease 0s;
+}
+.navbar-content:hover {
+  background-color: #3A445D;
+}
+.nav-link:hover {
+  color: #FCDEBE;
+}
+/*Accordion Buttons*/
+.accordion-button:hover {
+  background-color: #5E5768;
+  color: #FCDEBE;
+}
+.accordion-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-btn {
+  background-color: #3A445D;
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  border: none;
+  outline: 0;
+  border-radius: 12px;
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 110px;
+}
+.icon-space {
+  margin-left: 10px;
+}
+.contact-btn:hover {
+  color: #5E5768;
+  background-color: #FCDEBE;
+}
+/*Socials Cards*/
+.socials-card {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.socials-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  background-color: #5E5768;
+  color: #A0D2DB;
+}
+/*Tab Button*/
+.button-tab:hover {
+  background-color: #5E5768;
+  color: #FCDEBE;
+}
+/*body*/
+.container .dropdown-item {
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  margin: 0;
+  padding: 0;
+}
+li, a, button {
+  font-family: "Averia Sans Libre", sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: beige;
+  text-decoration: none;
+}
+.main-container .row-content .content-row {
+  margin: 0;
+  padding: 0;
+}
+.center-headings {
+  text-align: center;
+}
+.container-content {
+  padding: 100px 0;
+}
+.card-content {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.card-content:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  background-color: #5E5768;
+  color: #FCDEBE;
+}
+.card-content-work {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.card-content-work:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  background-color: #5E5768;
+  color: #A0D2DB;
+}
+/*Gallery Carousel*/
+.carousel {
+  width: 100%;
+  height: 500px;
+}
+.carousel-image {
+  width: 100%;
+  height: 400px;
+  object-fit: contain;
+}
+.carousel-controls {
+  width: 50px;
+  height: 50px;
+  background-size: 100%;
+  background-color: #5E5768;
+}
+.carousel-indicators [data-bs-target] {
+  background-color: #5E5768;
+}
+.carousel-indicators .active {
+  background-color: #A0D2DB;
+}
+/*Modal Work Hours*/
+.modal-header {
+  background-color: #5E5768;
+  color: #FCDEBE;
+}
+/*Video Card*/
+.img-thumbnail {
+  border: 2px solid #3A445D;
+}
+.intro-video {
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+.intro-video:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  background-color: #5E5768;
+  color: #FCDEBE;
+}
+/*Text Area*/
+textarea {
+  resize: none;
+}
+/*Footer*/
+footer {
+  background-color: #5E5768;
+}
+
+.footer-content li {
+  color: #5E5768;
+  list-style: none;
+  padding: 10px 0;
+}
+.footer-content li a:hover {
+  color: #3A445D;
+  background-color: #FCDEBE;
+  border: none;
+  border-radius: 12px;
+} 
+.footer-logo {
+  border-right: none
+}
+.socials-content a {
+  font-size: 24px;
+  margin: 10px;
+  color: #3A445D;
+  text-decoration: none;
+}
+.socials-content a:hover {
+  color: #A0D2DB;
+}
+/*Fonts*/
+.averia-sans-libre-bold-italic {
+  font-family: "Averia Sans Libre", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+.averia-sans-libre-light {
+  font-family: "Averia Sans Libre", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+.averia-sans-libre-regular {
+  font-family: "Averia Sans Libre", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.averia-sans-libre-bold {
+  font-family: "Averia Sans Libre", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.averia-sans-libre-light-italic {
+  font-family: "Averia Sans Libre", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+.averia-sans-libre-regular-italic {
+  font-family: "Averia Sans Libre", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
